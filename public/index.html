@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>This is demo file</title>
+<link href="./css/style.css" rel="stylesheet">
+
+<!-- to use jquery -->
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- to direct this to client.js -->
+   < <script type="text/javascript" src="./js/myclient.js"></script> 
+
+</head>
+<body>
+	<h1> Welcome to Express World </h1>
+<form method="post">
+
+	<label>Enter First  Num</label><br>
+	<input type="text" name="num1" value="" /><br>
+	<label>Enter Second  Num</label><br>
+	<input type="text" name="num2" value="" /><br>
+	<br><br>
+   <ul>
+        <li>  <button type="submit" formaction="/add">Add</button> </li>
+        <li> <button type="submit" formaction="/subtract">Subtract</button> </li>
+        <li> <button type="submit" formaction="/divide">Devide</button> </li>
+        <li> <button type="submit" formaction="/multi">Multiply</button> </li>
+    </ul>
+    <div name="result"> <div>
+</form>
+</body>
+</html>
